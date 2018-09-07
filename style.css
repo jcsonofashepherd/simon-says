@@ -1,0 +1,179 @@
+body {
+  background-image: url(assets/background.jpg); /*  http://wallpapercave.com/wp/BhcQpIw.jpg  */
+}
+
+#OuterCircle {
+  height: 500px;
+  width: 500px;
+  margin-left: -250px;
+  margin-top: -250px;
+  border-radius: 250px;
+  background: #43464B;
+}
+
+.fixed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+}
+
+#lt {
+  margin-left: -220px;
+  margin-top: -220px;
+  border-radius: 200px 0 0 0;
+  background: #339933;
+}
+
+#rt {
+  margin-top: -220px;
+  margin-left: 20px;
+  border-radius: 0 200px 0 0;
+  background: #cc0000;
+}
+
+#lb {
+  margin-left: -220px;
+  margin-top: 20px;
+  border-radius: 0 0 0 200px;
+  background: #e6e600;
+}
+
+#rb {
+  margin-left: 20px;
+  margin-top: 20px;
+  border-radius: 0 0 200px 0;
+  background: #0066cc;
+}
+
+.colorBtn {
+  height: 200px;
+  width: 200px;
+  color: rgba(0, 0, 0, 0);
+}
+
+#InnerCircle {
+  height: 300px;
+  width: 300px;
+  margin-top: -150px;
+  margin-left: -150px;
+  border-radius: 150px;
+  background: #43464B;
+}
+
+#BtnCircle {
+  height: 220px;
+  width: 220px;
+  margin-top: -110px;
+  margin-left: -110px;
+  border-radius: 110px;
+  background: #ccc;
+}
+
+#SimonTitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  height: 70px;
+  width: 200px;
+  margin-left: -95px;
+  margin-top: -80px;
+}
+
+#CounterScreen {
+  font-family: 'Orbitron', sans-serif;
+  height: 35px;
+  width: 50px;
+  background: #800000;
+  border: 5px solid #43464B;
+  border-radius: 10px;
+  margin-top: -10px;
+  margin-left: -85px;
+}
+
+#StartBtn {
+  height: 30px;
+  width: 30px;
+  background: #ff6600;
+  border: 5px solid #43464B;
+  border-radius: 15px;
+  margin-top: -7.5px;
+  margin-left: -15px;
+}
+
+#StrictBtn {
+  height: 30px;
+  width: 30px;
+  background: #ffff00;
+  border: 5px solid #43464B;
+  border-radius: 15px;
+  margin-top: -7.5px;
+  margin-left: 37.5px;
+}
+
+#StrictLight {
+  height: 10px;
+  width: 10px;
+  background: #800000;
+  border: 2.5px solid #43464B;
+  border-radius: 5px;
+  margin-left: 80px;
+  margin-top: 2px;
+}
+
+#ResetBtn {
+  height: 30px;
+  width: 30px;
+  background: #ff0000;
+  border: 5px solid #43464B;
+  border-radius: 15px;
+  margin-top: 52px;
+  margin-left: -15px;
+}
+
+#CounterTitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  margin-left: -111px;
+  margin-top: 30px;
+}
+
+#StartTitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  margin-left: -50px;
+  margin-top: 30px;
+}
+
+#StrictTitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  margin-left: 15px;
+  margin-top: 30px;
+}
+
+#ResetTitle {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 10px;
+  height: 20px;
+  width: 100px;
+  margin-left: -50px;
+  margin-top: 87.5px;
+}
+
+#OuterCircle, #BtnCircle, #StartBtn, #StrictBtn, #ResetBtn {
+  box-shadow: 5px 5px 10px 0 black;
+}
+
+.colorBtn, #StartBtn, #StrictBtn, #ResetBtn {
+  cursor: hand; cursor: pointer;
+}
+
+#StartBtn:active, #StrictBtn:active, #ResetBtn:active {
+  box-shadow: 2.5px 2.5px 5px 0 black
+}
