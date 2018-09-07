@@ -19,7 +19,7 @@ $(document).ready( function() {
       darkenArr =  { '#lt': '#339933','#rt': '#cc0000', 
                      '#rb': '#0066cc','#lb': '#e6e600' };
   
-  green.src = 'assets/green.src';  //  https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
+  green.src = 'assets/green.mp3';  //  https://s3.amazonaws.com/freecodecamp/simonSound1.mp3
   red.src = 'assets/red.mp3';  //  https://s3.amazonaws.com/freecodecamp/simonSound2.mp3
   blue.src = 'assets/blue.mp3';  //  https://s3.amazonaws.com/freecodecamp/simonSound3.mp3
   yellow.src = 'assets/yellow.mp3';  //  https://s3.amazonaws.com/freecodecamp/simonSound4.mp3
