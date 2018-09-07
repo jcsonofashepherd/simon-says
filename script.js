@@ -26,7 +26,7 @@ $(document).ready( function() {
   
   //  Sets sound attributes
   const setSound = (color) => {
-    color.volume = 0.50;
+    color.volume = 1.00;
     color.autoPlay = false;
     color.preLoad = true;
   }
